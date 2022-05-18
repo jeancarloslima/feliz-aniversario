@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root {
+    --fonte01: 'Passion One', cursive;
+    --fonte02: 'Sriracha', cursive;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: black;
+    text-align: center;
+    font-family: var(--fonte01);
+    color: white;
+}
+
+header h1 {
+    font-weight: bolder;
+    font-size: 3em;
+    padding-top: 30px;
+}
+
+header p {
+    font-size: 1em;
+    padding-bottom: 30px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+main {
+    font-family: var(--fonte02);
+    font-weight: bold;
+}
+
+div {
+    margin: 50px 0px 50px 15px;
+}
+
+div#est2 {
+    height: 350px;
+    width: 100%;
+    margin: 50px 0px 50px 0px;
+    background-color: black;
+    color: black;
+    background-image: url(imagens/fundo01.jpg);
+    background-position: center right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+div.texto {
+    display: inline-block;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.192);
+}
+
+div#est5 {
+    height: 350px;
+    width: 100%;
+    margin: 50px 0px 50px 0px;
+    background-color: black;
+    color: black;
+    background-image: url(imagens/fundo02.jpg);
+    background-position: center right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+footer {
+    font-family: var(--fonte01);
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
